@@ -21,3 +21,17 @@
 
 Account #0: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266 (10000 ETH)
 Private Key: 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80
+
+## Инструкция по эксплуатации
+
+Все файлы контрактов лежат по пути ./contracts, туда кладем файл контаркта и вводим 
+
+```bash
+npx hardhat compile
+```
+
+после того как убедились в том что настроена правильная логика в ./ignition/module/Lock.js нам надо задеплоить наш контракт командой
+
+```bash
+npx hardhat ignition deploy ./ignition/modules/Lock.js --network hardhat
+```
