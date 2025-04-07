@@ -40,3 +40,13 @@ npx hardhat compile
 ```bash
 npx hardhat ignition deploy ./ignition/modules/Lock.js --network hardhat
 ```
+
+## Коспект 
+
+### Создание ERC-20 сщбственного токена
+
+Устанавливаем библиотеку 
+
+```bash 
+npm install @openzeppelin/contracts
+```
